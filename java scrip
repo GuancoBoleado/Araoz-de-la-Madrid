@@ -1,0 +1,9 @@
+// Ejemplo del conector que incluiremos cuando tengamos la URL de Supabase:
+const SUPABASE_URL = 'https://tu-proyecto.supabase.co';
+const SUPABASE_KEY = 'tu-anon-key';
+
+// Esta función leerá las filas con estado 'pendiente' u 'ocupado' y pintará el almanaque en tiempo real
+async function cargarDisponibilidad() {
+    const { data: reservas } = await supabase.from('reservas').select('*');
+    // Pintará en amarillo o rojo dinámicamente según la tabla
+}
