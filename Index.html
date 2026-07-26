@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aráoz de la Madrid - Finca, Bodega & Hospedaje</title>
+    <!-- Tailwind CSS desde CDN para estilos responsivos y limpios -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { 
+            background-color: #f4f0ea; 
+            color: #3b3228; 
+            font-family: 'Georgia', serif; 
+        }
+        .border-rustic { border: 2px solid #8c7a6b; }
+        .bg-parchment { background-color: #eae1d0; }
+        .hero-bg {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url('https://raw.githubusercontent.com/GuancoBoleado/Araoz-de-la-Madrid/main/hero.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="p-0 m-0">
+
+    <!-- Header / Banner Principal -->
+    <header class="hero-bg text-white text-center py-24 px-4 shadow-lg border-b-4 border-[#8c7a6b]">
+        <h1 class="text-4xl md:text-6xl font-bold tracking-widest text-[#f5ebd7] mb-2 drop-shadow-md">ARÁOZ DE LA MADRID</h1>
+        <p class="text-lg md:text-2xl italic text-[#e6d5bc] max-w-2xl mx-auto">Hotel Botánico, Bodega & Viñedos en las Sierras</p>
+        <div class="mt-8">
+            <a href="#reservas" class="bg-[#7a2e2e] hover:bg-[#5a2020] text-[#f5ebd7] px-8 py-3 rounded border border-[#b89574] font-bold text-lg shadow-md transition">Consultar Disponibilidad</a>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-4 py-12 space-y-16">
+
+        <!-- Presentación de la Finca -->
+        <section class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center bg-parchment p-6 md:p-8 rounded-lg border-rustic shadow-md">
+            <div>
+                <h2 class="text-3xl font-bold text-[#5c4738] mb-4">Un Refugio en el Monte Serrano</h2>
+                <p class="leading-relaxed mb-4">
+                    Entre hileras de viñedos y la majestuosidad de las sierras, nuestra finca combina la serenidad de la naturaleza con la calidez de la bioconstrucción en piedra y madera. 
+                </p>
+                <p class="leading-relaxed">
+                    Disfruta de nuestros paseos botánicos, catas privadas de vinos artesanales y el descanso en habitaciones diseñadas para desconectar por completo.
+                </p>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+                <img src="https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=600&auto=format&fit=crop" alt="Cata de Vinos" class="rounded border-rustic object-cover h-40 w-full shadow">
+                <img src="https://images.unsplash.com/photo-1584132967334-10e028bd69f7?q=80&w=600&auto=format&fit=crop" alt="Piscina y Viñedo" class="rounded border-rustic object-cover h-40 w-full shadow">
+            </div>
+        </section>
+
+        <!-- Catálogo de Habitaciones -->
+        <section>
+            <h2 class="text-3xl font-bold text-center text-[#5c4738] mb-8">Nuestras Habitaciones</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- Habitación 1 -->
+                <div class="bg-parchment rounded-lg border-rustic shadow-md overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <span class="text-xs font-bold tracking-wider uppercase text-[#7a2e2e] bg-[#f0e6d2] px-2 py-1 rounded border border-[#8c7a6b]">26 m² • Hasta 2 Huéspedes</span>
+                        <h3 class="text-2xl font-bold text-[#4a392c] mt-3 mb-1">Standard Double or Twin</h3>
+                        <p class="text-sm italic text-[#7a6858] mb-4">🌻 Vista al Jardín & Patio Interno</p>
+                        <ul class="text-sm space-y-2 mb-6 text-[#3b3228]">
+                            <li>🛏️ <strong>Camas:</strong> 1 Doble o 2 Individuales</li>
+                            <li>☕ Cafetera & Minibar en la habitación</li>
+                            <li>❄️ Aire acondicionado & Wi-Fi libre</li>
+                            <li>🍳 Desayuno continental incluido</li>
+                            <li>🚗 Incluye 1 lugar de estacionamiento</li>
+                        </ul>
+                    </div>
+                    <div class="p-6 bg-[#ded3be] border-t border-[#8c7a6b] text-right">
+                        <p class="text-xs text-[#6e5d4f]">Precio base promocional</p>
+                        <p class="text-2xl font-bold text-[#5c4738]">$1.773.204 <span class="text-xs font-normal">/ 8 noches</span></p>
+                    </div>
+                </div>
+
+                <!-- Habitación 2 -->
+                <div class="bg-parchment rounded-lg border-rustic shadow-md overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <span class="text-xs font-bold tracking-wider uppercase text-[#7a2e2e] bg-[#f0e6d2] px-2 py-1 rounded border border-[#8c7a6b]">26 m² • Hasta 2 Huéspedes</span>
+                        <h3 class="text-2xl font-bold text-[#4a392c] mt-3 mb-1">Double or Twin Mountain</h3>
+                        <p class="text-sm italic text-[#7a6858] mb-4">🏔️ Vista a la Montaña & Piscina</p>
+                        <ul class="text-sm space-y-2 mb-6 text-[#3b3228]">
+                            <li>🛏️ <strong>Camas:</strong> 2 Dobles Grandes o 2 Ind.</li>
+                            <li>☕ Cafetera & Minibar</li>
+                            <li>❄️ Aire Acondicionado, Baño privado</li>
+                            <li>🍳 Desayuno continental incluido</li>
+                            <li>🚗 Incluye 1 lugar de estacionamiento</li>
+                        </ul>
+                    </div>
+                    <div class="p-6 bg-[#ded3be] border-t border-[#8c7a6b] text-right">
+                        <p class="text-xs text-[#6e5d4f]">Precio base promocional</p>
+                        <p class="text-2xl font-bold text-[#5c4738]">$1.773.204 <span class="text-xs font-normal">/ 8 noches</span></p>
+                    </div>
+                </div>
+
+                <!-- Habitación 3 -->
+                <div class="bg-parchment rounded-lg border-rustic shadow-md overflow-hidden flex flex-col justify-between">
+                    <div class="p-6">
+                        <span class="text-xs font-bold tracking-wider uppercase text-[#7a2e2e] bg-[#f0e6d2] px-2 py-1 rounded border border-[#8c7a6b]">35 m² • Superior Suite</span>
+                        <h3 class="text-2xl font-bold text-[#4a392c] mt-3 mb-1">Superior Double or Twin</h3>
+                        <p class="text-sm italic text-[#7a6858] mb-4">✨ Ambiente amplio en Piedra y Madera</p>
+                        <ul class="text-sm space-y-2 mb-6 text-[#3b3228]">
+                            <li>🛏️ <strong>Camas:</strong> 1 Matrimonial Grande o 2 Ind.</li>
+                            <li>🏔️ Vista panorámica a las sierras</li>
+                            <li>☕ Cafetera, Minibar & Patio Privado</li>
+                            <li>🍳 Desayuno continental incluido</li>
+                            <li>🚗 Incluye 1 lugar de estacionamiento</li>
+                        </ul>
+                    </div>
+                    <div class="p-6 bg-[#ded3be] border-t border-[#8c7a6b] text-right">
+                        <p class="text-xs text-[#6e5d4f]">Precio base promocional</p>
+                        <p class="text-2xl font-bold text-[#5c4738]">$1.933.763 <span class="text-xs font-normal">/ 8 noches</span></p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Almanaque Dinámico & Formulario de Reserva -->
+        <section id="reservas" class="bg-white p-6 md:p-10 rounded-lg border-rustic shadow-xl">
+            <h2 class="text-3xl font-bold text-center text-[#5c4738] mb-2">Consulta de Disponibilidad</h2>
+            <p class="text-center text-sm text-[#7a6858] mb-8">Elige tu habitación y selecciona tus fechas en el calendario.</p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Calendario Simulado (Frontend) -->
+                <div>
+                    <h3 class="text-xl font-bold mb-4 text-[#4a392c]">Estado de Fechas - Noviembre 2026</h3>
+                    
+                    <!-- Leyenda de Colores -->
+                    <div class="flex flex-wrap gap-4 text-xs font-bold mb-6 bg-parchment p-3 rounded border border-[#8c7a6b]">
+                        <span class="flex items-center gap-1"><span class="w-3 h-3 bg-green-500 rounded-full inline-block"></span> Disponible (Verde)</span>
+                        <span class="flex items-center gap-1"><span class="w-3 h-3 bg-yellow-400 rounded-full inline-block"></span> Pre-reserva (Amarillo)</span>
+                        <span class="flex items-center gap-1"><span class="w-3 h-3 bg-red-500 rounded-full inline-block"></span> Ocupado (Rojo)</span>
+                    </div>
+
+                    <!-- Grilla del Calendario -->
+                    <div class="grid grid-cols-7 gap-2 text-center text-sm font-semibold">
+                        <div class="text-xs text-gray-500">Lun</div><div class="text-xs text-gray-500">Mar</div><div class="text-xs text-gray-500">Mié</div><div class="text-xs text-gray-500">Jue</div><div class="text-xs text-gray-500">Vie</div><div class="text-xs text-gray-500">Sáb</div><div class="text-xs text-gray-500">Dom</div>
+                        
+                        <!-- Días -->
+                        <div class="p-3 bg-green-100 text-green-800 rounded border border-green-300 cursor-pointer hover:bg-green-200">10</div>
+                        <div class="p-3 bg-green-100 text-green-800 rounded border border-green-300 cursor-pointer hover:bg-green-200">11</div>
+                        <div class="p-3 bg-yellow-100 text-yellow-800 rounded border border-yellow-400 font-bold" title="En proceso de transferencia">12</div>
+                        <div class="p-3 bg-yellow-100 text-yellow-800 rounded border border-yellow-400 font-bold" title="En proceso de transferencia">13</div>
+                        <div class="p-3 bg-red-500 text-white rounded font-bold cursor-not-allowed line-through" title="Confirmado y Pagado">14</div>
+                        <div class="p-3 bg-red-500 text-white rounded font-bold cursor-not-allowed line-through" title="Confirmado y Pagado">15</div>
+                        <div class="p-3 bg-green-100 text-green-800 rounded border border-green-300 cursor-pointer hover:bg-green-200">16</div>
+                    </div>
+                </div>
+
+                <!-- Formulario de Pre-reserva -->
+                <form id="bookingForm" class="space-y-4 bg-parchment p-6 rounded border-rustic" onsubmit="solicitarReserva(event)">
+                    <h3 class="text-xl font-bold text-[#4a392c] mb-2">Solicitar Pre-Reserva</h3>
+                    
+                    <div>
+                        <label class="block text-xs font-bold uppercase mb-1">Habitación Elegida</label>
+                        <select id="roomSelect" class="w-full p-2 rounded border border-[#8c7a6b] bg-white">
+                            <option>Standard Double or Twin Room</option>
+                            <option>Double or Twin Room Mountain View</option>
+                            <option>Superior Double or Twin Room</option>
+                        </select>
+                    </div>
+
+                    <div class="grid grid-cols-2 gap-2">
+                        <div>
+                            <label class="block text-xs font-bold uppercase mb-1">Check-In</label>
+                            <input type="date" required class="w-full p-2 rounded border border-[#8c7a6b] bg-white">
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold uppercase mb-1">Check-Out</label>
+                            <input type="date" required class="w-full p-2 rounded border border-[#8c7a6b] bg-white">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase mb-1">Nombre y Apellido</label>
+                        <input type="text" placeholder="Ej: Juan Pérez" required class="w-full p-2 rounded border border-[#8c7a6b] bg-white">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase mb-1">Teléfono / WhatsApp</label>
+                        <input type="tel" placeholder="+54 9..." required class="w-full p-2 rounded border border-[#8c7a6b] bg-white">
+                    </div>
+
+                    <div>
+                        <label class="block text-xs font-bold uppercase mb-1">Observaciones / Llegadas progresivas de grupo</label>
+                        <textarea placeholder="Ej: Somos 3 personas desde el inicio y un 4° integrante se suma las últimas 2 noches." class="w-full p-2 rounded border border-[#8c7a6b] bg-white h-20 text-sm"></textarea>
+                    </div>
+
+                    <button type="submit" class="w-full bg-[#7a2e2e] hover:bg-[#5a2020] text-white font-bold py-3 rounded border border-[#b89574] transition shadow">
+                        Enviar Pre-Reserva por Transferencia
+                    </button>
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-[#3b3228] text-[#eae1d0] text-center py-6 border-t-4 border-[#8c7a6b]">
+        <p class="text-sm">&copy; 2026 Aráoz de la Madrid - Finca & Hospedaje. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Script de Interacción Inicial -->
+    <script>
+        function solicitarReserva(e) {
+            e.preventDefault();
+            alert("¡Pre-reserva registrada! Sus fechas cambiarán a color AMARILLO temporalmente. En breve nos comunicaremos vía WhatsApp para brindarle los datos de transferencia.");
+        }
+    </script>
+</body>
+</html>
